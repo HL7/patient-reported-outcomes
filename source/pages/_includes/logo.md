@@ -13,6 +13,6 @@ can only resize using html  or css ;-(
 -->
 
 
-<a no-external="true" href="http://www.hl7.org/">
-<img alt="visit our website" class="img-responsive project-logo" src="assets/images/org-logo.png"/>
+<a no-external="true" href="http://www.openmhealth.org/">
+<img alt="visit our website" class="img-responsive project-logo" src="assets/images/org_logo.jpg"/>
 </a>
