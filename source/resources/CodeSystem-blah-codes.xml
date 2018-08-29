@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="blah-codes"/>
-<url value="http://www.fhir.org/guides/test3/CodeSystem/blah-codes"/>
+<url value="http://hl7.org/fhir/us/patient-reported-outcomes/CodeSystem/blah-codes"/>
 <version value="0.0.0"/>
 <name value="BlahCodes"/>
 <status value="draft"/>
@@ -24,7 +24,7 @@
   </coding>
 </jurisdiction>
 <caseSensitive value="true"/>
-<valueSet value="http://www.fhir.org/guides/test3/ValueSet/blah-codes"/>
+<valueSet value="http://hl7.org/fhir/us/patient-reported-outcomes/ValueSet/blah-codes"/>
 <content value="complete"/>
 <concept>
   <code value="blah"/>
