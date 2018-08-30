@@ -70,11 +70,11 @@ The PROM Instrument and Metadata Repository **SHALL** support _id, identifier, c
 
 ##### Security Requirements
 
-The PROM Instrument and Meta data Repository SHALL support the Communication security mechanisms outlined in [FHIR Security Specification](http://hl7.org/fhir/security.html#http)
+The PROM Instrument and Meta data Repository **SHALL** support the Communication security mechanisms outlined in [FHIR Security Specification](http://hl7.org/fhir/security.html#http)
 
-The PROM Instrument and Meta data Repository SHALL support the Authenitication security mechanisms outlined in [FHIR Security Specification](http://hl7.org/fhir/security.html#authentication)
+The PROM Instrument and Meta data Repository **SHALL** support the Authenitication security mechanisms outlined in [FHIR Security Specification](http://hl7.org/fhir/security.html#authentication)
 
-The PROM Instrument and Meta data Repository SHOULD support other security recommendations outlined in FHIR Security as appropriate.
+The PROM Instrument and Meta data Repository **SHOULD** support other security recommendations outlined in FHIR Security as appropriate.
 
 #### EHR or Care Delivery Health IT System Conformance Requirements
 
@@ -109,17 +109,17 @@ The EHR or Care Delivery Health IT System **SHALL** support the CREATE, READ, SE
 |[SDC Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[SDC QuestionnaireResponse](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[US Core Results / Observation - Note1](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|MAY|MAY|MAY|MAY|MAY|
-|[ProcedureRequest - Note2](http://hl7.org/fhir/procedurerequest.html)|MAY|MAY|MAY|MAY|MAY|
+|[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|MAY|MAY|MAY|MAY|MAY|
 
 ---
 **Note1**
 US Core Results Observation profile is optional and only needs to be supported if the answers to the questions in the QuestionnaireResponse are translated to Observations.
 
 **Note2**
-Some sites are planning to use ProcedureRequest to capture the ordering of a PROM instrument to a specific patient. 
+Some sites are planning to use ServiceRequest to capture the ordering of a PROM instrument to a specific patient. 
 
 **Feedback Required**
-We are requesting feedback from pilot sites and challenge participants on whether the use of US CoreResults and/or ProcedureRequest should be mandated or left optional.
+We are requesting feedback from pilot sites and challenge participants on whether the use of US CoreResults and/or ServiceRequest should be mandated or left optional.
 
 --- 
 
@@ -151,7 +151,7 @@ The EHR or Care Delivery Health IT System **SHALL** support _id, identifier, com
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
 ||patient & relatedTarget referring to QuestionnaireResponse (SHOULD)|
-|[ProcedureRequest](http://hl7.org/fhir/procedurerequest.html)|patient (SHALL)|
+|[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html))|patient (SHALL)|
 ||patient & intent (SHOULD)|
 
 
@@ -206,17 +206,17 @@ The External PRO Administration System **SHALL** support the CREATE, READ, SEARC
 |[SDC Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[SDC QuestionnaireResponse](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[US Core Results / Observation - Note1](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|MAY|MAY|MAY|MAY|MAY|
-|[ProcedureRequest - Note2](http://hl7.org/fhir/procedurerequest.html)|MAY|MAY|MAY|MAY|MAY|
+|[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|MAY|MAY|MAY|MAY|MAY|
 
 ---
 **Note1**
 US Core Results Observation profile is optional and only needs to be supported if the answers to the questions in the QuestionnaireResponse are translated to Observations.
 
 **Note2**
-Some sites are planning to use ProcedureRequest to capture the ordering of a PROM instrument to a specific patient. 
+Some sites are planning to use ServiceRequest to capture the ordering of a PROM instrument to a specific patient. 
 
 **Feedback Required**
-We are requesting feedback from pilot sites and challenge participants on whether the use of US CoreResults and/or ProcedureRequest should be mandated or left optional.
+We are requesting feedback from pilot sites and challenge participants on whether the use of US CoreResults and/or ServiceRequest should be mandated or left optional.
 
 --- 
 
@@ -248,7 +248,7 @@ The External PRO Administration System **SHALL** support _id, identifier, combin
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
 ||patient & relatedTarget referring to QuestionnaireResponse (SHOULD)|
-|[ProcedureRequest](http://hl7.org/fhir/procedurerequest.html)|patient (SHALL)|
+|[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|patient (SHALL)|
 ||patient & intent (SHOULD)|
 
 
@@ -309,7 +309,7 @@ The Patient Facing Administration App **SHALL** support the CREATE, READ, SEARCH
 |[SDC Questionnaire - Note1](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[SDC QuestionnaireResponse - Note1](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[US Core Results / Observation - Note2](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|MAY|MAY|MAY|MAY|MAY|
-|[ProcedureRequest - Note3](http://hl7.org/fhir/procedurerequest.html)|MAY|MAY|MAY|MAY|MAY|
+|[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|MAY|MAY|MAY|MAY|MAY|
 
 
 ---
@@ -320,10 +320,10 @@ The Patient Facing Administration App will use the SDC Adaptive Questionnaire an
 US Core Results Observation profile is optional and only needs to be supported if the answers to the questions in the QuestionnaireResponse are translated to Observations.
 
 **Note3**
-Some sites are planning to use ProcedureRequest to capture the ordering of a PROM instrument to a specific patient. 
+Some sites are planning to use ServiceRequest to capture the ordering of a PROM instrument to a specific patient. 
 
 **Feedback Required**
-We are requesting feedback from pilot sites and challenge participants on whether the use of US CoreResults and/or ProcedureRequest should be mandated or left optional.
+We are requesting feedback from pilot sites and challenge participants on whether the use of US CoreResults and/or ServiceRequest should be mandated or left optional.
 
 --- 
 
@@ -359,7 +359,7 @@ The Patient Facing Administration App **SHALL** support _id, identifier, combina
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
 ||patient & relatedTarget referring to QuestionnaireResponse (SHOULD)|
-|[ProcedureRequest](http://hl7.org/fhir/procedurerequest.html)|patient (SHALL)|
+|[ServiceRequest](http://build.fhir.org/servicerequest.html)|patient (SHALL)|
 ||patient & intent (SHOULD)|
 
 
