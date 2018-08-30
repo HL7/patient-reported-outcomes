@@ -146,6 +146,7 @@ The EHR or Care Delivery Health IT System **SHALL** support _id, identifier, com
 ||patient (SHALL)|
 ||questionnaire (SHALL)|
 ||author (SHALL)|
+||authored (SHALL)|
 |[US Core Results - Observation](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|patient (SHALL)|
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
@@ -242,6 +243,7 @@ The External PRO Administration System **SHALL** support _id, identifier, combin
 ||patient (SHALL)|
 ||questionnaire (SHALL)|
 ||author (SHALL)|
+||authored (SHALL)|
 |[US Core Results - Observation](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|patient (SHALL)|
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
@@ -352,6 +354,7 @@ The Patient Facing Administration App **SHALL** support _id, identifier, combina
 ||patient (SHALL)|
 ||questionnaire (SHALL)|
 ||author (SHALL)|
+||authored (SHALL)|
 |[US Core Results - Observation](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|patient (SHALL)|
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
