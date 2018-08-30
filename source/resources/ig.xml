@@ -6,7 +6,7 @@
   <version value="0.0.0"/>
   <name value="Patient Reported Outcomes"/>
   <status value="draft"/>
-  <publisher value="Health eData Inc"/>
+  <publisher value="Office of the National Coordiantor"/>
   <copyright value="Used by permission of Health eData Inc, all rights reserved Creative Commons License"/>
   <!-- 0..1 Use and/or publishing restrictions -->
   <!-- <packageId value="healthedatainc.ig-test3"/> -->
@@ -14,8 +14,16 @@
   <!-- <license value="CC0-1.0"/> -->
   <!-- 0..1 SPDX license code for this IG (or not-open-source) -->
   <fhirVersion value="3.5.0"/>
+<!--  <dependsOn>
+    <uri value="http://build.fhir.org/ig/HL7/sdc"/>
+    <version value="current"/>
+  </dependsOn> -->
+  <dependsOn>
+    <uri value="http://hl7.org/fhir/uv/sdc"/>
+    <version value="current"/>
+  </dependsOn>
   <!-- 0..1 FHIR Version this Implementation Guide targets -->
-  <definition><resource><reference><reference value="Patient/example"/></reference><exampleBoolean value="true"/></resource><resource><reference><reference value="ValueSet/blah-codes"/></reference><exampleBoolean value="false"/></resource><resource><reference><reference value="StructureDefinition/template-profile-on-profile"/></reference><exampleBoolean value="false"/></resource><resource><reference><reference value="CodeSystem/blah-codes"/></reference><exampleBoolean value="false"/></resource><resource><reference><reference value="CapabilityStatement/server"/></reference><exampleBoolean value="false"/></resource><resource><reference><reference value="CapabilityStatement/client"/></reference><exampleBoolean value="false"/></resource>
+  <definition><resource><reference><reference value="Patient/example"/></reference><exampleBoolean value="true"/></resource><resource><reference><reference value="CapabilityStatement/server"/></reference><exampleBoolean value="false"/></resource><resource><reference><reference value="CapabilityStatement/client"/></reference><exampleBoolean value="false"/></resource>
      <!-- <resource>
        <reference>
      <reference value="[type]/[id]"/>
@@ -26,7 +34,7 @@
     </resource>   -->
     <page>
       <nameUrl value="index.md"/>
-      <title value="IG-Test3 Homepage"/>
+      <title value="PRO Homepage"/>
       <generation value="markdown"/>
     </page>
   </definition>
