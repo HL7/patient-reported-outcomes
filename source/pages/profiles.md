@@ -5,25 +5,25 @@ active: profiles
 ---
 #### Profiles
 
-The PRO FHIR IG does not define any specific new profiles, but rather uses the profiles defined by SDC. The following is a list of the SDC profiles and the purposes for which they are used within the PRO IG.
+The PRO FHIR IG does not define any specific new profiles, but rather uses the profiles defined by SDC. The following is a list of the SDC profiles and the purposes for which they are used within the PRO IG. Please refer to the [Capability Statements](capstatements.html) and [Implementation Guidance](guidance.html) for usage of these profiles.
 
+| Profile Name                  | Usage within the PRO IG        |
+|:------------------------------|-------------------------------:|
+| [SDC Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)| Questionnaire Profile used for Basic Questionnaire Representation and Administration|
+| [SDC QuestionnaireResponse](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)| QuestionnaireResponse Profile used for Basic QuestionnaireResponse collection|
+| [SDC Adaptive Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire-adapt.html)| Questionnaire Profile used for Adpative Questionnaire Representation and Administration|
+| [SDC Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse-adapt.html)| QuestionnaireResponse Profile used for Adaptive QuestionnaireResponse collection and scoring|
 
+---
+**Feedback Required**
 
-[SDC Adaptive Questionnaire Profile]({{site.data.fhir.sdc}}/sdc-questionnaire-adapt.html)
+Please provide feedback and comments on the usage of the above listed SDC profiles through pilot and challenge implementations.
 
-[SDC Adaptive Questionnaire Profile2]({{site.data.fhir.sdc}}/StructureDefinition/sdc-questionnaire-adapt.html)
-
-[Direct SDC Build Link](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire-adapt.html)
-
-The following Profiles have been defined for this implementation guide.
-
-{% include list-profiles.xhtml %}
-
-<br />
+---
 
 #### Extensions
 
-These extensions have been defined for this implementation guide.
+There are currently no extensions beyond those used in the SDC Questionnaire profile required for the Implementation Guide.
 
 
 {% include list-extensions.xhtml %}
