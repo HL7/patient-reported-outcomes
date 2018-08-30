@@ -23,8 +23,4 @@ A downloadable version is available so this Implementation Guide can be hosted l
 
 - [Downloadable Copy](full-ig.zip)
 
-**FHIR IG Registry Source Documentation**
 
-A file for uploading this Guide and all its artifacts to a FHIR Registry
-
-- [Registry Source file](registry.fhir.org.zip)
