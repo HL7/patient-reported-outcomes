@@ -4,7 +4,7 @@
   <id value="ig"/>
   <url value="http://hl7.org/fhir/us/patient-reported-outcomes/ImplementationGuide/ig"/>
   <version value="0.0.0"/>
-  <name value="Patient Reported Outcomes"/>
+  <name value="Patient_Reported_Outcomes"/>
   <status value="draft"/>
   <publisher value="Office of the National Coordiantor"/>
   <copyright value="Used by permission of Health eData Inc, all rights reserved Creative Commons License"/>
@@ -24,6 +24,7 @@
   </dependsOn>
   <!-- 0..1 FHIR Version this Implementation Guide targets -->
   <definition>
+<resource><reference><reference value="CapabilityStatement/server"/></reference><exampleBoolean value="false"/></resource>
      <!-- <resource>
        <reference>
      <reference value="[type]/[id]"/>
