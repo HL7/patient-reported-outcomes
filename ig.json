@@ -1,1 +1,117 @@
-{"extraTemplates": ["mappings"], "logging": ["progress"], "fixed-business-version": "1.0.0", "dependencyList": [{"name": "uscore", "version": "1.0.1", "source": "dependencies/uscore-vp", "location": "http://hl7.org/fhir/us/core"},{"name": "sdc", "version": "dev", "source": "dependencies/sdc","location": "http://hl7.org/fhir/uv/sdc"}], "title": "Patient Reported Outcomes", "broken-links": "warning", "igtemplate-dir": "/Users/nbashyam/git/patient-reported-outcomes/", "canonicalBase": "http://hl7.org/fhir/us/patient-reported-outcomes", "swagger": [{"capabilities": "server", "mode": "single"}], "sct-edition": "http://snomed.info/sct/731000124108", "mappings": "true", "version": "3.5.0", "license": "CC0-1.0", "working-dir": "/Users/nbashyam/git/patient-reported-outcomes/", "allviews": "true", "spreadsheets": [], "do-transforms": "false", "gen-examples": "false", "resources": { "CapabilityStatement/server": {"base": "CapabilityStatement-server.html", "source": "capabilitystatement-server.xml"},"StructureMap/Foo": {"base": "StructureMap-Foo.html"} }, "tool": "jekyll", "paths": {"pages": ["framework", "source/pages"], "qa": "generated_output/qa", "temp": "generated_output/temp", "specification": "http://hl7.org/fhir/", "txCache": "generated_output/txCache", "resources": ["source/resources", "source/examples"], "output": "output"}, "defaults": {"StructureMap": {"template-base": "ex.html", "content": false, "profiles": false, "script": false}, "CapabilityStatement": {"template-base": "base.html"}, "ConceptMap": {"template-base": "base.html"}, "SearchParameter": {"template-base": "base.html"}, "Any": {"template-base": "base.html", "template-format": "format.html"}, "StructureDefinition": {"template-base": "sd.html", "template-mappings": "sd-mappings.html", "template-defns": "sd-definitions.html"}, "CodeSystem": {"template-base": "base.html"}, "OperationDefinition": {"template-base": "base.html"}, "ValueSet": {"template-base": "base.html"}, "Patient": {"template-base": "ex.html"}}, "publisher": "Office of the National Coordinator", "no-inactive-codes": "false", "pub_url": "nagesh.bashyam@drajer.com", "npm-name": "hl7.fhir.us.patient-reported-outcomes", "structuremaps": ["Foo"], "html-template": "html-template.html", "topofpage": "true", "source": "ig.xml", "status": "draft"}
+{
+  "allviews" : "true",
+  "broken-links" : "warning",
+  "canonicalBase" : "http://hl7.org/fhir/us/patient-reported-outcomes",
+  "defaults" : {
+    "Any" : {
+      "template-base" : "base.html",
+      "template-format" : "format.html"
+    },
+    "CapabilityStatement" : {
+      "template-base" : "base.html"
+    },
+    "CodeSystem" : {
+      "template-base" : "base.html"
+    },
+    "ConceptMap" : {
+      "template-base" : "base.html"
+    },
+    "OperationDefinition" : {
+      "template-base" : "base.html"
+    },
+    "Patient" : {
+      "template-base" : "ex.html"
+    },
+    "SearchParameter" : {
+      "template-base" : "base.html"
+    },
+    "StructureDefinition" : {
+      "template-base" : "sd.html",
+      "template-defns" : "sd-definitions.html",
+      "template-mappings" : "sd-mappings.html"
+    },
+    "StructureMap" : {
+      "content" : false,
+      "profiles" : false,
+      "script" : false,
+      "template-base" : "ex.html"
+    },
+    "ValueSet" : {
+      "template-base" : "base.html"
+    }
+  },
+  "dependencyList" : [
+    {
+      "location" : "http://hl7.org/fhir/us/core",
+      "name" : "uscore",
+      "source" : "dependencies/uscore-vp",
+      "version" : "1.0.1"
+    },
+    {
+      "location" : "http://hl7.org/fhir/uv/sdc",
+      "name" : "sdc",
+      "source" : "dependencies/sdc",
+      "version" : "dev"
+    }
+  ],
+  "do-transforms" : "false",
+  "extraTemplates" : [
+    "mappings"
+  ],
+  "fixed-business-version" : "0.1.0",
+  "gen-examples" : "false",
+  "html-template" : "html-template.html",
+  "igtemplate-dir" : "/Users/nbashyam/git/patient-reported-outcomes/",
+  "license" : "CC0-1.0",
+  "logging" : [
+    "progress"
+  ],
+  "mappings" : "true",
+  "no-inactive-codes" : "false",
+  "npm-name" : "hl7.fhir.us.patient-reported-outcomes",
+  "paths" : {
+    "output" : "output",
+    "pages" : [
+      "framework",
+      "source/pages"
+    ],
+    "qa" : "generated_output/qa",
+    "resources" : [
+      "source/resources",
+      "source/examples"
+    ],
+    "specification" : "http://hl7.org/fhir/",
+    "temp" : "generated_output/temp",
+    "txCache" : "generated_output/txCache"
+  },
+  "pub_url" : "nagesh.bashyam@drajer.com",
+  "publisher" : "Office of the National Coordinator",
+  "resources" : {
+    "CapabilityStatement/server" : {
+      "base" : "CapabilityStatement-server.html",
+      "source" : "capabilitystatement-server.xml"
+    },
+    "StructureMap/Foo" : {
+      "base" : "StructureMap-Foo.html"
+    }
+  },
+  "sct-edition" : "http://snomed.info/sct/731000124108",
+  "source" : "ig.xml",
+  "spreadsheets" : [
+  ],
+  "status" : "draft",
+  "structuremaps" : [
+    "Foo"
+  ],
+  "swagger" : [
+    {
+      "capabilities" : "server",
+      "mode" : "single"
+    }
+  ],
+  "title" : "Patient Reported Outcomes",
+  "tool" : "jekyll",
+  "topofpage" : "true",
+  "version" : "3.5.0",
+  "working-dir" : "/Users/nbashyam/git/patient-reported-outcomes/"
+}
