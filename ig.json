@@ -112,6 +112,6 @@
   "title" : "Patient Reported Outcomes",
   "tool" : "jekyll",
   "topofpage" : "true",
-  "version" : "3.5.0",
+  "version" : "4.0.0",
   "working-dir" : "/Users/nbashyam/git/patient-reported-outcomes/"
 }
