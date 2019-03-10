@@ -9,11 +9,11 @@
   <publisher value="Office of the National Coordiantor"/>
   <copyright value="Used by permission of Health eData Inc, all rights reserved Creative Commons License"/>
   <!-- 0..1 Use and/or publishing restrictions -->
-  <!-- <packageId value="healthedatainc.ig-test3"/> -->
+  <packageId value="hl7.fhir.us.patient-reported-outcomes"/>
   <!-- 0..1 NPM Package name for IG -->
   <!-- <license value="CC0-1.0"/> -->
   <!-- 0..1 SPDX license code for this IG (or not-open-source) -->
-  <fhirVersion value="3.5.0"/>
+  <fhirVersion value="4.0.0"/>
 <!--  <dependsOn>
     <uri value="http://build.fhir.org/ig/HL7/sdc"/>
     <version value="current"/>
@@ -34,7 +34,7 @@
       <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/patient"/>|<exampleBoolean value="true|false"/>
     </resource>   -->
     <page>
-    <!--  <nameUrl value="index.md"/> -->
+      <nameUrl value="index.md"/> 
       <title value="PRO Homepage"/>
       <generation value="markdown"/>
     </page>
