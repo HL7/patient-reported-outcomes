@@ -6,11 +6,11 @@ active: terminology
 #### Value Sets
 
 For the purposes of PRO IG, the value sets published by LOINC will be used to code the existing PRO Measures.
-As new value sets are required, they will be identified and may be added to LOINC or may be curated outside of LOINC. 
+As new value sets are required, they will be identified and may be added to LOINC or may be curated outside of LOINC.
 
 ---
 **NOTE**
-The value sets below are example value sets for readers, to view the types of value sets published by LOINC for the purposes of PROs and other use cases. In order to access these, readers have to register for an account with LOINC at http://loinc.org and then can use the credentials to access the value sets.
+The value sets below are example value sets for readers, to view the types of value sets published by LOINC for the purposes of PROs and other use cases. In order to access these, readers have to register for an account with LOINC at `http://loinc.org` and then can use the credentials to access the value sets.
 
 ---  
 
