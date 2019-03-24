@@ -26,7 +26,7 @@ The section outlines the implementation guidance for the various actors involved
 
 Developers can follow these steps to implement the above capabilities.
 
-**Step 1:** Implement a FHIR Server. (Choose either STU3 or DSTU2)
+**Step 1:** Implement a FHIR Server. (Choose Release 4)
 
 There are many open source FHIR Servers that are available to be downloaded and used instead of starting from scratch. These can be found at [FHIR Open Source Implementations](http://wiki.hl7.org/index.php?title=Open_Source_FHIR_implementations).
 
@@ -43,7 +43,7 @@ Publish the FHIR Server Capability Statement for the Server.
 
 `GET [BaseURL]/Questionnaire/1234` - Receive a payload (body) of Questionnaire in JSON format.
 
-`GET [BaseURL]/Questionnaire/?_summary` - Receive all Questionnaires present in the system in summary format.
+`GET [BaseURL]/Questionnaire/?_summary=true` - Receive all Questionnaires present in the system in summary format.
 
 * Search API - Find Specific questionnaires.
 
@@ -60,7 +60,7 @@ At a minimum, HTTPS protocols must be used for the implementation using the righ
 
 Developers can follow these steps to implement the above capabilities.
 
-**Step 1:** Implement a FHIR Server. (Choose either STU3 or DSTU2)
+**Step 1:** Implement a FHIR Server. (Choose Release 4)
 
 There are many open source FHIR Servers that are available to be downloaded and used instead of starting from scratch. These can be found at [FHIR Open Source Implementations](http://wiki.hl7.org/index.php?title=Open_Source_FHIR_implementations).
 
@@ -79,7 +79,7 @@ Publish the FHIR Server Capability Statement for the Server.
 
 `GET [BaseURL]/Questionnaire/1234` - Receive a payload (body) of Questionnaire in JSON format.
 
-`GET [BaseURL]/Questionnaire/?_summary` - Receive all Questionnaires present in the system in summary format.
+`GET [BaseURL]/Questionnaire/?_summary=true` - Receive all Questionnaires present in the system in summary format.
 
 * Search API - Find Specific questionnaires.
 
@@ -118,7 +118,7 @@ To implement the SMART on FHIR Authorization Server and other SMART on FHIR capa
 
 Developers can follow these steps to implement the above capabilities.
 
-**Step 1:** Implement a FHIR Server. (Choose either STU3 or DSTU2)
+**Step 1:** Implement a FHIR Server. (Choose Release 4)
 
 There are many open source FHIR Servers that are available to be downloaded and used instead of starting from scratch. These can be found at [FHIR Open Source Implementations](http://wiki.hl7.org/index.php?title=Open_Source_FHIR_implementations).
 
@@ -134,7 +134,7 @@ Publish the FHIR Server Capability Statement for the Server.
 
 `GET [BaseURL]/Questionnaire/1234` - Receive a payload (body) of Questionnaire in JSON format.
 
-`GET [BaseURL]/Questionnaire/?_summary` - Receive all Questionnaires present in the system in summary format.
+`GET [BaseURL]/Questionnaire/?_summary=true` - Receive all Questionnaires present in the system in summary format.
 
 * Search API - Find Specific questionnaires.
 
@@ -179,7 +179,7 @@ The section outlines the implementation guidance for the various actors involved
 
 Developers can follow these steps to implement the above capabilities.
 
-**Step 1:** Implement a FHIR Server. (Choose either STU3 or DSTU2)
+**Step 1:** Implement a FHIR Server. (Choose Release 4)
 
 There are many open source FHIR Servers that are available to be downloaded and used instead of starting from scratch. These can be found at [FHIR Open Source Implementations](http://wiki.hl7.org/index.php?title=Open_Source_FHIR_implementations).
 
@@ -196,7 +196,7 @@ Publish the FHIR Server Capability Statement for the Server.
 
 `GET [BaseURL]/Questionnaire/1234` - Receive a payload (body) of Questionnaire in JSON format.
 
-`GET [BaseURL]/Questionnaire/?_summary` - Receive all Questionnaires present in the system in summary format.
+`GET [BaseURL]/Questionnaire/?_summary=true` - Receive all Questionnaires present in the system in summary format.
 
 * Search API - Find Specific questionnaires.
 
@@ -234,7 +234,7 @@ At a minimum, HTTPS protocols must be used for the implementation using the righ
 
 Developers can follow these steps to implement the above capabilities.
 
-**Step 1:** Implement a FHIR Server. (Choose either STU3 or DSTU2)
+**Step 1:** Implement a FHIR Server. (Choose Release 4)
 
 There are many open source FHIR Servers that are available to be downloaded and used instead of starting from scratch. These can be found at [FHIR Open Source Implementations](http://wiki.hl7.org/index.php?title=Open_Source_FHIR_implementations).
 
@@ -251,7 +251,7 @@ Publish the FHIR Server Capability Statement for the Server.
 
 `GET [BaseURL]/Questionnaire/1234` - Receive a payload (body) of Questionnaire in JSON format.
 
-`GET [BaseURL]/Questionnaire/?_summary` - Receive all Questionnaires present in the system in summary format.
+`GET [BaseURL]/Questionnaire/?_summary=true` - Receive all Questionnaires present in the system in summary format.
 
 
 **Step 2b:** Implement the APIs for QuestionnaireResponse

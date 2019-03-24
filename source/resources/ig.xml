@@ -3,11 +3,11 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ig"/>
   <url value="http://hl7.org/fhir/us/patient-reported-outcomes/ImplementationGuide/ig"/>
-  <version value="0.0.0"/>
+  <version value="0.2.0"/>
   <name value="Patient_Reported_Outcomes"/>
   <status value="draft"/>
   <publisher value="Office of the National Coordiantor"/>
-  <copyright value="Used by permission of Health eData Inc, all rights reserved Creative Commons License"/>
+  <copyright value="Used by permission of HL7, all rights reserved Creative Commons License"/>
   <!-- 0..1 Use and/or publishing restrictions -->
   <packageId value="hl7.fhir.us.patient-reported-outcomes"/>
   <!-- 0..1 NPM Package name for IG -->

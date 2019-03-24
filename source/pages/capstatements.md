@@ -34,7 +34,7 @@ The FHIR HTTP specification outlines specific requirements on how to deal with s
 ---
 ##### Profiles and Interactions
 
-The PROM Instrument and Meta data Repository needs to implement the profile specific interactions as specified in the table below.
+The PROM Instrument and Meta data Repository needs to implement the profile specific interactions as specified below.
 
 ---
 **Implementation Note**
@@ -50,7 +50,7 @@ The PROM Instrument and Metadata Repository **SHALL** support the CREATE, READ, 
 
 ##### Search and Other Parameters
 
-The PROM Instrument and Meta data Repository needs to implement the search parameters as specified in the table below.
+The PROM Instrument and Meta data Repository needs to implement the search parameters as specified below.
 
 ---
 **Implementation Note**
@@ -94,7 +94,7 @@ The FHIR HTTP specification outlines specific requirements on how to deal with s
 ---
 ##### Profiles and Interactions
 
-The EHR or Care Delivery Health IT System needs to implement the profile specific interactions as specified in the table below.
+The EHR or Care Delivery Health IT System needs to implement the profile specific interactions as specified table below.
 
 ---
 **Implementation Note**
@@ -125,7 +125,7 @@ We are requesting feedback from pilot sites and challenge participants on whethe
 
 ##### Search and Other Parameters
 
-The EHR or Care Delivery Health IT System needs to implement the search parameters as specified in the table below.
+The EHR or Care Delivery Health IT System needs to implement the search parameters as specified below.
 
 ---
 **Implementation Note**
@@ -191,7 +191,7 @@ The FHIR HTTP specification outlines specific requirements on how to deal with s
 ---
 ##### Profiles and Interactions
 
-The External PRO Administration System needs to implement the profile specific interactions as specified in the table below.
+The External PRO Administration System needs to implement the profile specific interactions as specified below.
 
 ---
 **Implementation Note**
@@ -222,7 +222,7 @@ We are requesting feedback from pilot sites and challenge participants on whethe
 
 ##### Search and Other Parameters
 
-The External PRO Administration System needs to implement the search parameters as specified in the table below.
+The External PRO Administration System needs to implement the search parameters as specified below.
 
 ---
 **Implementation Note**
@@ -292,7 +292,7 @@ The FHIR HTTP specification outlines specific requirements on how to deal with s
 ---
 ##### Profiles and Interactions
 
-The Patient Facing Administration App needs to implement the profile specific interactions as specified in the table below.
+The Patient Facing Administration App needs to implement the profile specific interactions as specified below.
 
 ---
 **Implementation Note**
@@ -333,7 +333,7 @@ The Patient Facing Administration App **SHALL** support the [Adaptive Questionna
 
 ##### Search and Other Parameters
 
-The Patient Facing Administration App needs to implement the search parameters as specified in the table below.
+The Patient Facing Administration App needs to implement the search parameters as specified below.
 
 ---
 **Implementation Note**
@@ -391,7 +391,7 @@ The FHIR HTTP specification outlines specific requirements on how to deal with s
 ---
 ##### Profiles and Interactions
 
-The External Assessment Center needs to implement the profile specific interactions as specified in the table below.
+The External Assessment Center needs to implement the profile specific interactions as specified below.
 
 ---
 **Implementation Note**
@@ -420,7 +420,7 @@ The External Assessment Center **SHALL** support the [Adaptive Questionnaire Nex
 
 ##### Search and Other Parameters
 
-The External Assessment Center needs to implement the search parameters as specified in the table below.
+The External Assessment Center needs to implement the search parameters as specified below.
 
 ---
 **Implementation Note**
