@@ -4,10 +4,17 @@
   <id value="ig"/>
   <url value="http://hl7.org/fhir/us/patient-reported-outcomes/ImplementationGuide/ig"/>
   <version value="0.2.0"/>
-  <name value="Patient_Reported_Outcomes"/>
+  <name value="PatientReportedOutcomes"/>
+  <title value="Patient Reported Outcomes"/>
   <status value="draft"/>
-  <publisher value="Office of the National Coordiantor"/>
+  <publisher value="HL7 International - FHIR Infrastructure Work Group"/>
   <copyright value="Used by permission of HL7, all rights reserved Creative Commons License"/>
+   <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
   <!-- 0..1 Use and/or publishing restrictions -->
   <packageId value="hl7.fhir.us.patient-reported-outcomes"/>
   <!-- 0..1 NPM Package name for IG -->
