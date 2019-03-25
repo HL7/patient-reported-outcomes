@@ -5,15 +5,24 @@
  "introduction" : "The PRO FHIR IG provides guidance on how to use FHIR resources to capture patient reporteddata that can be used to improve healthcare services and provide data for research.",
  "list" : [{
   "version" : "current",
+  "date" : "2019-05-01",
   "desc" : "Continuous Integration Build (latest in version control)",
   "path" : "http://build.fhir.org/ig/HL7/patient-reported-outcomes/index.html",
   "status" : "ci-build",
-  "current" : true
+  "current" : true,
+  "sequence" : "Release 4"
+ },{
+  "version" : "0.2.0",
+  "date" : "2019-05-01",
+  "desc" : "Release 4 STU Ballot",
+  "path" : "http://hl7.org/fhir/us/patient-reported-outcomes/2019May",
+  "status" : "ballot",
+  "sequence" : "Release 4"
  },{
   "version" : "0.1.0",  
   "date" : "2018-08-31", 
   "desc" : "STU 3 Comment Ballot",   
-  "path" : "http://hl7.org/fhir/us/patient-reported-outcomes/2018Sep/index.html",   
+  "path" : "http://hl7.org/fhir/us/patient-reported-outcomes/2018Sep",   
   "status" : "ballot",   
   "sequence" : "STU 3"
  }]

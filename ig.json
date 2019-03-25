@@ -81,6 +81,7 @@
       "source/examples"
     ],
     "specification" : "http://hl7.org/fhir/",
+    "history" : "http://hl7.org/fhir/us/patient-reported-outcomes/history.html",
     "temp" : "generated_output/temp",
     "txCache" : "generated_output/txCache"
   },
