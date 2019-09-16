@@ -63,7 +63,7 @@ Figure 1 below shows a typical PROM life cycle starting with the PROM definition
 
 This section outlines the abstract model which is used to identify the specific actors and interactions that are in-scope for the PRO FHIR IG. There are two different abstract models to consider and are outlined below
 
-* __Abstract model for administering fixed format (Basic) questionnaires__: In this model the all the items of the questionnaires are administered to the patient unless some of the items have to be skipped based on skip logic or other simple criteria. For example, A Questionnaire might skip a question on pregnancy if the person is a male.
+* __Abstract model for administering fixed format (Basic) questionnaires__: In this model all the items of the questionnaires are administered to the patient unless some of the items have to be skipped based on skip logic or other simple criteria. For example, A Questionnaire might skip a question on pregnancy if the person is a male.
 	 	
 * __Abstract model for administering Item Response Theory (IRT) based questionnaires__: This is also known as Computerized Adaptive Testing (CAT), or administration of Adaptive Questionnaires. In this case a set of questions typically 4 to 12 are administered from a question bank containing a large number of questions. The selected questions are based on Item Response Theory algorithms which look at the answers provided and select the next question based on IRT algorithms. The selection of questions will help in obtaining responses for a few questions and finish the administration. These small set of questions still provide the necessary confidence and scores required to interpret the data appropriately as if the whole questionnaire was administered. 
 	
@@ -76,7 +76,7 @@ Figure 2 below shows the abstract model, actors and the data flows for the admin
  
 **PROM Instrument and Meta data Repository**: The PROM Instrument and Meta data Repository is a system that is capable of storing the PROMs along with its meta data. In addition to storing the PROMs, the repository provides APIs to health IT systems to retrieve PROMs for administration. The repository may be hosted by an organization (e.g. PCORnet CDRN such as REACHnet, pSCANNER) individually or can be hosted centrally by a federal agency (e.g. NIH) or a network such as Common Well or an independent organization providing PRO services (e.g. Northwestern).
 
-**EHR or Care Delivery Health IT System**: In the context of PRO work flows, EHR or Care Delivery Health IT Systems are used by providers to deliver care and can capture and store the health information about the patient. These EHR or Care Delivery systems can be used to administer PROs to patient as part of routine care. These EHRs or Care Delivery systems will render the PRO instrument natively, capture the PRO data and then persist the captured PRO data within the system.
+**EHR or Care Delivery Health IT System**: In the context of PRO work flows, EHR or Care Delivery Health IT Systems are used by providers to deliver care and can capture and store the health information about the patient. These EHR or Care Delivery systems can be used to administer PROs to patients as part of routine care. These EHRs or Care Delivery systems will render the PRO instrument natively, capture the PRO data and then persist the captured PRO data within the system.
 
 **External PRO Administration System**: In the context of PRO work flows, External PRO Administration Systems are those which are considered to be independent and external to the EHR or Care Delivery Health IT system. There are many different variations of these systems. Some examples include independent health IT systems which have no connection to an EHR (e.g. Tablets with PRO modules used to collect PRO data and have their own databases to store the data), a SMART on FHIR App which can be launched from an EHR with the patient context and communicate with the EHR is used to collect and store PRO data. The key aspect of these external PRO systems is the fact that they are outside the clinical care delivery system (i.e. EHR) and hence will need a mechanism to integrate with the EHR for the PRO data to be useful widely.
 
@@ -92,7 +92,7 @@ __PROM Administration using SMART on FHIR App (Identified as DF3 in Abstract Mod
 
 #### Abstract Model for administering IRT based (Adaptive or CAT) Questionnaires
 
-Figure 3 below shows the abstract model, actors and the data flows for the administration of Basic Questionnaires. The actors and their interactions are outlined in the next few paragraphs.
+Figure 3 below shows the abstract model, actors and the data flows for the administration of IRT Based Questionnaires. The actors and their interactions are outlined in the next few paragraphs.
 
 {% include img.html img="pro-abstract-model-adaptive.png" caption="Figure 3: Abstract Model for Adaptive Questionnaires " %}
  
