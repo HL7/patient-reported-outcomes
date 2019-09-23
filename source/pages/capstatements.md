@@ -108,7 +108,7 @@ The EHR or Care Delivery Health IT System **SHALL** support the CREATE, READ, SE
 |:----------------------|-----------:|-----------:|-------------------------:|---------------:|--------------------------:|
 |[SDC Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[SDC QuestionnaireResponse](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
-|[US Core Results / Observation - Note1]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observationresults.html)|MAY|MAY|MAY|MAY|MAY|
+|[US Core Results / Observation - Note1]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observation-lab.html)|MAY|MAY|MAY|MAY|MAY|
 |[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|MAY|MAY|MAY|MAY|MAY|
 
 ---
