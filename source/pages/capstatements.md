@@ -355,7 +355,7 @@ The Patient Facing Administration App **SHALL** support _id, identifier, combina
 ||questionnaire (SHALL)|
 ||author (SHALL)|
 ||authored (SHALL)|
-|[US Core Results - Observation](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|patient (SHALL)|
+|[US Core Results - Observation]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observation-lab.html)|patient (SHALL)|
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
 ||patient & relatedTarget referring to QuestionnaireResponse (SHOULD)|
