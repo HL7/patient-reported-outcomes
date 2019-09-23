@@ -147,7 +147,7 @@ The EHR or Care Delivery Health IT System **SHALL** support _id, identifier, com
 ||questionnaire (SHALL)|
 ||author (SHALL)|
 ||authored (SHALL)|
-|[US Core Results - Observation](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|patient (SHALL)|
+|[US Core Results - Observation]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observation-lab.html)|patient (SHALL)|
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
 ||patient & relatedTarget referring to QuestionnaireResponse (SHOULD)|
@@ -205,7 +205,7 @@ The External PRO Administration System **SHALL** support the CREATE, READ, SEARC
 |:----------------------|-----------:|-----------:|-------------------------:|---------------:|--------------------------:|
 |[SDC Questionnaire](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[SDC QuestionnaireResponse](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
-|[US Core Results / Observation - Note1](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|MAY|MAY|MAY|MAY|MAY|
+|[US Core Results / Observation - Note1]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observation-lab.html)|MAY|MAY|MAY|MAY|MAY|
 |[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|MAY|MAY|MAY|MAY|MAY|
 
 ---
@@ -244,7 +244,7 @@ The External PRO Administration System **SHALL** support _id, identifier, combin
 ||questionnaire (SHALL)|
 ||author (SHALL)|
 ||authored (SHALL)|
-|[US Core Results - Observation](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|patient (SHALL)|
+|[US Core Results - Observation]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observation-lab.html)|patient (SHALL)|
 ||patient & category (SHALL)|
 ||patient & category & date (SHALL)|
 ||patient & relatedTarget referring to QuestionnaireResponse (SHOULD)|
@@ -308,7 +308,7 @@ The Patient Facing Administration App **SHALL** support the CREATE, READ, SEARCH
 |[SDC Adaptive QuestionnaireResponse](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse-adapt.html)|SHALL|MAY|MAY|MAY|MAY|
 |[SDC Questionnaire - Note1](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaire.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
 |[SDC QuestionnaireResponse - Note1](http://build.fhir.org/ig/HL7/sdc/sdc-questionnaireresponse.html)|SHALL|SHALL|SHALL|SHOULD|SHOULD|
-|[US Core Results / Observation - Note2](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)|MAY|MAY|MAY|MAY|MAY|
+|[US Core Results / Observation - Note2]({{site.data.fhir.uscoreR4}}StructureDefinition-us-core-observation-lab.html)|MAY|MAY|MAY|MAY|MAY|
 |[ServiceRequest - Note2](http://build.fhir.org/servicerequest.html)|MAY|MAY|MAY|MAY|MAY|
 
 
