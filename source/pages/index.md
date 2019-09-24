@@ -17,7 +17,7 @@ active: home
 
 ###  Introduction
 
-The Patient Reported Outcomes (PRO) FHIR Implementation Guide (IG) will focus on capturing and exchanging patient reported outcome data electronically using the FHIR standard. The data that is captured will be made available to both providers and authorized researchers. While the PRO FHIR IG can be applied to multiple use cases, the current requirements have been drawn from [PCORnet](https://pcornet.org/) use cases and implementations. The capabilities described as part of the IG are intended to be leveraged to build US data infrastructure for a Learning Health System (LHS).
+The Patient Reported Outcomes (PRO) FHIR Implementation Guide (IG) will focus on capturing and exchanging patient reported outcome data electronically using the FHIR standard. The data that is captured will be made available to both providers and authorized researchers. While the PRO FHIR IG can be applied to multiple use cases beyond the US, the current requirements have been drawn from [PCORnet](https://pcornet.org/) use cases and implementations. The capabilities described as part of the IG are based on US   workflows, recommended valuesets are based on US implementations and hence are intended to be leveraged to build US data infrastructure for a Learning Health System (LHS). The IG could be examined and released for the universal realm in a future release.
 
 PRO FHIR IG will leverage the US-Core IG and profiles for the resources that overlap with US-Core. PRO FHIR IG will also leverage the Structured Data Capture (SDC) FHIR IG.
 
